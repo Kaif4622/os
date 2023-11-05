@@ -73,3 +73,7 @@ close(fd);
 close(fd2);
 return 0;
 }
+gcc Client.c
+ ./a.out
+ gcc Server.c
+ ./a.out
