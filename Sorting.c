@@ -53,3 +53,6 @@ perror("\n Error in execv call");
 }
 }
 }
+gcc Sorting.c -o first 
+gcc Searching.c -o second 
+/first ./second
