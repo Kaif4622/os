@@ -79,3 +79,6 @@ else if(cpid < 0)
 printf("Error");
 }
 }
+gcc Fork_Child.c -o child
+gcc Fork_Parent.c
+./a.out
