@@ -49,3 +49,7 @@ main()
  exit(0);
 }
 
+gcc SHM_Server.c
+./a.out
+gcc SHM_Client.c
+./a.out
